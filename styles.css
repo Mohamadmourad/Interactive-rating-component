@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+main{
+    width: 90%;
+    max-width: 350px;
+    min-width: 350px;
+    height: 370px;
+    background-color: #1E252F;
+    border-radius: 25px;
+}
+
+.container{
+    padding: 30px;
+}
+
+.icon{
+    background-color: #262F38;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.section3{
+    color:  hsl(217, 12%, 63%);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.section4{
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    width: 100px;
+}
+
+input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + label {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 50px;
+    background-color: #262F38;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #7C8897;
+    color: #fff;
+  }
+
+  input[type="radio"]:hover + label {
+    background-color: #FC7613;
+    color: #fff;
+  }
+
+  .section5{
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+  }
+
+  button{
+    width: 100%;
+    background-color: #FC7613;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+  }
+
+  button:hover{
+    background-color: white;
+    color: #FC7613;
+    cursor: pointer;
+  }
+/* thanks page */
+/* thanks page */
+/* thanks page */
+.container-th{
+  display: none;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-th{
+  padding: 30px;
+}
+
+.section6{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.section7{
+  color: #FC7613;
+  background-color: #262F38;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.section8{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.section9{
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  margin-top: 10px;
+}

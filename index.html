@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <main>
+  <div class="container" id="page1">
+   <section class="section1">
+     <div class="icon">
+       <img src="images/icon-star.svg" class="img1">
+     </div>
+   </section>
+   <section class="section2">
+    How did we do?
+   </section>
+   <section class="section3">
+    Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!
+   </section>
+   <section class="section4">
+      <input type="radio" id="1" name="numbers" value="1">
+      <label for="1">1</label>
+      <input type="radio" id="2" name="numbers" value="2">
+      <label for="2">2</label>
+      <input type="radio" id="3" name="numbers" value="3">
+      <label for="3">3</label>
+      <input type="radio" id="4" name="numbers" value="4">
+      <label for="4">4</label>
+      <input type="radio" id="5" name="numbers" value="5">
+      <label for="5">5</label>
+   </section>
+   <section class="section5">
+     <button id="submit">SUBMIT</button>
+   </section>
+  </div>
+
+  <div class="container-th" id="page2">
+    <section class="section6">
+        <img src="images/illustration-thank-you.svg">
+    </section>
+    <section class="section7">
+       <p id="rating">
+       mmmmmm
+       </p>
+    </section>
+    <section class="section8">
+        Thank you!
+    </section>
+    <section class="section9">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+    </section>
+</div>
+ </main>
+ <script src="main.js"></script>
+</body>
+</html>
